@@ -28,13 +28,6 @@ app.use("/api/pokemon", require("./routes/pokemonRoutes"));
 app.use("/api/packs", require("./routes/packRoutes"));
 app.use("/api/users", require("./routes/userRoutes"));
 
-// Laden der Zertifikatsdateien
-const key = fs.readFileSync(path.resolve(__dirname, "192.168.178.115-key.pem"));
-const cert = fs.readFileSync(path.resolve(__dirname, "192.168.178.115.pem"));
-
-// HTTPS-Server erstellen
-const httpsServer = https.createServer({ key, cert }, app);
-
 const PORT = process.env.PORT || 5001;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);

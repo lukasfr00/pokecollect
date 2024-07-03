@@ -28,6 +28,7 @@ logs/*
 *.launch
 .settings/
 *.sublime-workspace
+.vscode
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
