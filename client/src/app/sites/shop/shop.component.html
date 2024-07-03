@@ -1,0 +1,15 @@
+<div class="shop-header">
+  <p>
+    Dies ist der Shop. Hier kannst du neue Pokemon erwerben und deiner Sammlung
+    hinzufügen. Öffne so viele Packs wie möglich, um deine Sammlung zu
+    vervollständigen.
+  </p>
+</div>
+
+<h3>Standardpacks</h3>
+<div id="standard-packs" class="packs-list">
+  @for(pack of packs; track $index){
+  <h4>{{ pack.name }}</h4>
+  <button (click)="viewPack(pack._id)">Pack öffnen</button>
+  }
+</div>

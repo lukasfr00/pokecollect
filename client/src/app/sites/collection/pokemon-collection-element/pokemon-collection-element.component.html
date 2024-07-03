@@ -1,0 +1,19 @@
+<p class="pokedex-nr">#{{ pokedexNr }}</p>
+@if (pokemon) {
+<div class="pokemon-tile collected-tile" (click)="openPokemon()">
+  <img class="pokemon-sprite" [src]="pokemon.sprite" />
+  <img class="type-icon" [src]="getDecodedImage(pokemon.primaryType.icon)" />
+  <div
+    class="background"
+    [class]="pokemon.primaryType.name + '-transparent'"
+  ></div>
+  @if(count > 1){
+  <div class="count">{{ count }}</div>
+  }
+</div>
+} @else {
+<div class="pokemon-tile">
+  <img class="question-sign" src="assets/collection-icons/question-sign.svg" />
+  <div class="background"></div>
+</div>
+}

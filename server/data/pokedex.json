@@ -1,0 +1,218 @@
+[
+  {
+    "pokedex": "0001",
+    "name": "Bisasam",
+    "sprite": "assets/sprites/0001_bisasam.png",
+    "rarity": "uncommon",
+    "primaryType": "Pflanze",
+    "secondaryType": "Gift"
+  },
+  {
+    "pokedex": "0002",
+    "name": "Bisaknosp",
+    "sprite": "assets/sprites/0002_bisaknosp.png",
+    "rarity": "rare",
+    "primaryType": "Pflanze",
+    "secondaryType": "Gift"
+  },
+  {
+    "pokedex": "0003",
+    "name": "Bisaflor",
+    "sprite": "assets/sprites/0003_bisaflor.png",
+    "rarity": "epic",
+    "primaryType": "Pflanze",
+    "secondaryType": "Gift"
+  },
+  {
+    "pokedex": "0004",
+    "name": "Glumanda",
+    "sprite": "assets/sprites/0004_glumanda.png",
+    "rarity": "uncommon",
+    "primaryType": "Feuer",
+    "secondaryType": null
+  },
+  {
+    "pokedex": "0005",
+    "name": "Glutexo",
+    "sprite": "assets/sprites/0005_glutexo.png",
+    "rarity": "rare",
+    "primaryType": "Feuer",
+    "secondaryType": null
+  },
+  {
+    "pokedex": "0006",
+    "name": "Glurak",
+    "sprite": "assets/sprites/0006_glurak.png",
+    "rarity": "epic",
+    "primaryType": "Feuer",
+    "secondaryType": "Flug"
+  },
+  {
+    "pokedex": "0007",
+    "name": "Schiggy",
+    "sprite": "assets/sprites/0007_schiggy.png",
+    "rarity": "uncommon",
+    "primaryType": "Wasser",
+    "secondaryType": null
+  },
+  {
+    "pokedex": "0008",
+    "name": "Schillok",
+    "sprite": "assets/sprites/0008_schillok.png",
+    "rarity": "rare",
+    "primaryType": "Wasser",
+    "secondaryType": null
+  },
+  {
+    "pokedex": "0009",
+    "name": "Turtok",
+    "sprite": "assets/sprites/0009_turtok.png",
+    "rarity": "epic",
+    "primaryType": "Wasser",
+    "secondaryType": null
+  },
+  {
+    "pokedex": "0010",
+    "name": "Raupy",
+    "sprite": "assets/sprites/0010_raupy.png",
+    "rarity": "common",
+    "primaryType": "Käfer",
+    "secondaryType": null
+  },
+  {
+    "pokedex": "0011",
+    "name": "Safcon",
+    "sprite": "assets/sprites/0011_safcon.png",
+    "rarity": "common",
+    "primaryType": "Käfer",
+    "secondaryType": null
+  },
+  {
+    "pokedex": "0012",
+    "name": "Smettbo",
+    "sprite": "assets/sprites/0012_smettbo.png",
+    "rarity": "uncommon",
+    "primaryType": "Käfer",
+    "secondaryType": "Flug"
+  },
+  {
+    "pokedex": "0013",
+    "name": "Hornliu",
+    "sprite": "assets/sprites/0013_hornliu.png",
+    "rarity": "common",
+    "primaryType": "Käfer",
+    "secondaryType": "Gift"
+  },
+  {
+    "pokedex": "0014",
+    "name": "Kokuna",
+    "sprite": "assets/sprites/0014_kokuna.png",
+    "rarity": "common",
+    "primaryType": "Käfer",
+    "secondaryType": "Gift"
+  },
+  {
+    "pokedex": "0015",
+    "name": "Bibor",
+    "sprite": "assets/sprites/0015_bibor.png",
+    "rarity": "uncommon",
+    "primaryType": "Käfer",
+    "secondaryType": "Gift"
+  },
+  {
+    "pokedex": "0016",
+    "name": "Taubsi",
+    "sprite": "assets/sprites/0016_taubsi.png",
+    "rarity": "common",
+    "primaryType": "Normal",
+    "secondaryType": "Flug"
+  },
+  {
+    "pokedex": "0017",
+    "name": "Tauboga",
+    "sprite": "assets/sprites/0017_tauboga.png",
+    "rarity": "uncommon",
+    "primaryType": "Normal",
+    "secondaryType": "Flug"
+  },
+  {
+    "pokedex": "0018",
+    "name": "Tauboss",
+    "sprite": "assets/sprites/0018_tauboss.png",
+    "rarity": "rare",
+    "primaryType": "Normal",
+    "secondaryType": "Flug"
+  },
+  {
+    "pokedex": "0019",
+    "name": "Rattfratz",
+    "sprite": "assets/sprites/0019_rattfratz.png",
+    "rarity": "common",
+    "primaryType": "Normal",
+    "secondaryType": null
+  },
+  {
+    "pokedex": "0020",
+    "name": "Rattikarl",
+    "sprite": "assets/sprites/0020_rattikarl.png",
+    "rarity": "uncommon",
+    "primaryType": "Normal",
+    "secondaryType": null
+  },
+  {
+    "pokedex": "0021",
+    "name": "Habitak",
+    "sprite": "assets/sprites/0021_habitak.png",
+    "rarity": "common",
+    "primaryType": "Normal",
+    "secondaryType": "Flug"
+  },
+  {
+    "pokedex": "0022",
+    "name": "Ibitak",
+    "sprite": "assets/sprites/0022_ibitak.png",
+    "rarity": "uncommon",
+    "primaryType": "Normal",
+    "secondaryType": "Flug"
+  },
+  {
+    "pokedex": "0023",
+    "name": "Rettan",
+    "sprite": "assets/sprites/0023_rettan.png",
+    "rarity": "common",
+    "primaryType": "Gift",
+    "secondaryType": null
+  },
+  {
+    "pokedex": "0024",
+    "name": "Arbok",
+    "sprite": "assets/sprites/0024_arbok.png",
+    "rarity": "uncommon",
+    "primaryType": "Gift",
+    "secondaryType": null
+  },
+  {
+    "pokedex": "0025",
+    "name": "Pikachu",
+    "sprite": "assets/sprites/0025_pikachu.png",
+    "rarity": "uncommon",
+    "primaryType": "Elektro",
+    "secondaryType": null
+  },
+  {
+    "pokedex": "0026",
+    "name": "Raichu",
+    "sprite": "assets/sprites/0026_raichu.png",
+    "rarity": "rare",
+    "primaryType": "Elektro",
+    "secondaryType": null
+  },
+  {
+    "pokedex": "0027",
+    "name": "Sandan",
+    "sprite": "assets/sprites/0027_sandan.png",
+    "rarity": "common",
+    "primaryType": "Boden",
+    "secondaryType": null
+  }
+]

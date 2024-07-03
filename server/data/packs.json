@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Standard Pack - 1. Generation",
+    "description": "Das Standard Pack mit allen Pokemon der 1. Generation.",
+    "cover": "assets/covers/starter_pack.png",
+    "price": 100,
+    "packSize": 8,
+    "maxRare": 4,
+    "maxEpic": 2,
+    "maxLegendary": 1,
+    "availablePokemon": [
+      { "pokedex": "0001" },
+      { "pokedex": "0002" },
+      { "pokedex": "0003" },
+      { "pokedex": "0004" },
+      { "pokedex": "0005" },
+      { "pokedex": "0006" },
+      { "pokedex": "0007" },
+      { "pokedex": "0008" },
+      { "pokedex": "0009" },
+      { "pokedex": "0010" },
+      { "pokedex": "0011" },
+      { "pokedex": "0012" },
+      { "pokedex": "0013" },
+      { "pokedex": "0014" },
+      { "pokedex": "0015" },
+      { "pokedex": "0016" },
+      { "pokedex": "0017" },
+      { "pokedex": "0018" },
+      { "pokedex": "0019" },
+      { "pokedex": "0020" },
+      { "pokedex": "0021" },
+      { "pokedex": "0022" },
+      { "pokedex": "0023" },
+      { "pokedex": "0024" },
+      { "pokedex": "0025" },
+      { "pokedex": "0026" },
+      { "pokedex": "0027" }
+    ]
+  }
+]

@@ -1,0 +1,25 @@
+<div class="filter-container">
+  <div class="search-bar">
+    <input type="text" placeholder="Pokemon suchen..." />
+    <button type="submit">
+      <img src="assets/collection-icons/search.svg" />
+    </button>
+  </div>
+  <button class="filter-options">
+    <img src="assets/collection-icons/filter.svg" />
+  </button>
+</div>
+<div class="collection-list">
+  @for (pokemon of allPokemon; track $index) { @if (isCollected(pokemon._id)) {
+  <app-pokemon-collection-element
+    [pokedexNr]="pokemon.pokedex"
+    [pokemon]="pokemon"
+    [count]="getCount(pokemon)"
+    (click)="goToDetail(pokemon._id)"
+  ></app-pokemon-collection-element>
+  } @else {
+  <app-pokemon-collection-element
+    [pokedexNr]="pokemon.pokedex"
+  ></app-pokemon-collection-element>
+  } }
+</div>

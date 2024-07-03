@@ -1,0 +1,19 @@
+@if(pack){
+<div class="header">
+  <button (click)="goBack()">
+    <img src="assets/general-icons/linker-pfeil.svg" />
+  </button>
+  <h2>{{ pack.name }}</h2>
+</div>
+
+@if(pack.content){
+<div class="pack-content">
+  @for (pokemon of pack.content; track $index) {
+  <app-pokemon-item [pokemon]="pokemon"></app-pokemon-item>
+  }
+</div>
+
+<div class="button-container">
+  <button class="save-button" (click)="closePack()">Alle speichern</button>
+</div>
+} }

@@ -1,0 +1,25 @@
+<div class="information">
+  <h2>Login</h2>
+  <p>
+    Willkommen bei der Pokemon-Sammelapp (ja, das ist ein Arbeitstitel). Hier
+    kannst du dich einloggen, um direkt zu deiner Sammlung zu gelangen und
+    weiterzusammeln. Solltest du noch keinen Account haben, kannst du dich
+    registrieren.
+  </p>
+</div>
+<form (ngSubmit)="login()">
+  <div class="input-container">
+    <label for="email">Email:</label>
+    <input type="email" [(ngModel)]="email" name="email" required />
+  </div>
+
+  <div class="input-container">
+    <label for="password">Passwort:</label>
+    <input type="password" [(ngModel)]="password" name="password" required />
+  </div>
+
+  <button type="submit">Login</button>
+</form>
+<button class="switchPage" (click)="register()">
+  Du hast noch keinen Account?
+</button>

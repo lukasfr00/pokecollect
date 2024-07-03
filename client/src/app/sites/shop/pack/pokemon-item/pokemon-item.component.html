@@ -1,0 +1,14 @@
+<div class="pokemon" [class]="pokemon.rarity">
+  <div class="rarity" [class]="pokemon.rarity + '-banner'">
+    <p>{{ getRarity() }}</p>
+  </div>
+  <img class="pokemon-image" [src]="pokemon.sprite" />
+  <div class="information">
+    <p>#{{ pokemon.pokedex }}</p>
+    <h2>{{ pokemon.name }}</h2>
+    <div class="type-box-container">
+      <app-type-box [type]="pokemon.primaryType"></app-type-box>
+      <app-type-box [type]="pokemon.secondaryType"></app-type-box>
+    </div>
+  </div>
+</div>

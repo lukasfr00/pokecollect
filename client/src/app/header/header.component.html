@@ -1,0 +1,42 @@
+@if(user){
+<header>
+  <div class="user-information">
+    <h2>{{ user.firstname }}</h2>
+    <div class="level">
+      <div class="level-number current-level">{{ user.level }}</div>
+      <div class="level-bar-container">
+        <!--<div class="level-xp">
+          {{ user.xp.currentXp }} / {{ user.xp.neededXp }}
+        </div>-->
+        <div class="level-bar"></div>
+        <!--<div class="level-xp hide">
+          {{ user.xp.currentXp }} / {{ user.xp.neededXp }}
+        </div>-->
+      </div>
+      <div class="level-number next-level">{{ user.level + 1 }}</div>
+    </div>
+  </div>
+  <div class="user-profile">
+    <a
+      routerLink="/user"
+      routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }"
+      class="user-icon"
+    >
+    </a>
+  </div>
+</header>
+<button class="navigation-button" (click)="toggleNavigation()">
+  <h2>{{ currentTitle }}</h2>
+  @if(isNavigationOpen){
+  <img
+    class="navigation-icon-open"
+    src="assets/general-icons/chevron-runter.svg"
+  />
+  } @else {
+  <img src="assets/general-icons/chevron-runter.svg" />
+  }
+</button>
+@if(isNavigationOpen){
+<app-navigation (closeNavigation)="closeNavigation()"></app-navigation>
+} }

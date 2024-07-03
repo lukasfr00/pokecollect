@@ -1,0 +1,220 @@
+
+:root{
+    //UI
+    --primary-color: #4A90E2;
+    --secondary-color: #7ED321;
+    --accent-color: #F5A623;
+    --background-color: #fff;
+    --text-color: #4A4A4A;
+
+    //Types
+    --normal: #A8A77A;
+    --normal-rgb: 168, 167, 122;
+    --fire: #EE8130;
+    --fire-rgb: 238, 129, 48;
+    --water: #6390F0;
+    --water-rgb: 99, 144, 240;
+    --electric: #F7D02C;
+    --electric-rgb: 247, 208, 44;
+    --grass: #7AC74C;
+    --grass-rgb: 122, 199, 76;
+    --ice: #96D9D6;
+    --ice-rgb: 150, 217, 214;
+    --fighting: #C22E28;
+    --fighting-rgb: 194, 46, 40;
+    --poison: #A33EA1;
+    --poison-rgb: 163, 62, 161;
+    --ground: #E2BF65;
+    --ground-rgb: 226, 191, 101;
+    --flying: #A98FF3;
+    --flying-rgb: 169, 143, 243;
+    --psychic: #F95587;
+    --psychic-rgb: 249, 85, 135;
+    --bug: #A6B91A;
+    --bug-rgb: 166, 185, 26;
+    --rock: #B6A136;
+    --rock-rgb: 182, 161, 54;
+    --ghost: #735797;
+    --ghost-rgb: 115, 87, 151;
+    --dragon: #6F35FC;
+    --dragon-rgb: 111, 53, 252;
+    --dark: #705746;
+    --dark-rgb: 112, 87, 70;
+    --steel: #B7B7CE;
+    --steel-rgb: 183, 183, 206;
+    --fairy: #D685AD;
+    --fairy-rgb: 214, 133, 173;
+
+    //Rarity
+    --common: #B0B0B0;
+    --common-rgb: 176, 176, 176;
+    --uncommon: #0070DD;
+    --uncommon-rgb: 0, 112, 221;
+    --rare: #062a8c;
+    --rare-rgb: 6, 42, 140;
+    --epic: #A335EE;
+    --epic-rgb: 163, 53, 238;
+    --legendary: #FF8000;
+    --legendary-rgb: 255, 128, 0;
+}
+
+
+*, html, body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    max-width: 750px;
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+
+.Normal {
+    background-color: rgb(var(--normal-rgb));
+}
+
+.Feuer {
+    background-color: rgb(var(--fire-rgb));
+}
+
+.Wasser {
+    background-color: rgb(var(--water-rgb));
+}
+
+.Elektro {
+    background-color: rgb(var(--electric-rgb));
+}
+
+.Pflanze {
+    background-color: rgb(var(--grass-rgb));
+}
+
+.Eis {
+    background-color: rgb(var(--ice-rgb));
+}
+
+.Kampf {
+    background-color: rgb(var(--fighting-rgb));
+}
+
+.Gift {
+    background-color: rgb(var(--poison-rgb));
+}
+
+.Boden {
+    background-color: rgb(var(--ground-rgb));
+}
+
+.Flug {
+    background-color: rgb(var(--flying-rgb));
+}
+
+.Psycho {
+    background-color: rgb(var(--psychic-rgb));
+}
+
+.Käfer {
+    background-color: rgb(var(--bug-rgb));
+}
+
+.Gestein {
+    background-color: rgb(var(--rock-rgb));
+}
+
+.Geist {
+    background-color: rgb(var(--ghost-rgb));
+}
+
+.Drache {
+    background-color: rgb(var(--dragon-rgb));
+}
+
+.Unlicht {
+    background-color: rgb(var(--dark-rgb));
+}
+
+.Stahl {
+    background-color: rgb(var(--steel-rgb));
+}
+
+.Fee {
+    background-color: rgb(var(--fairy-rgb));
+}
+
+
+
+.Normal-transparent {
+    background-color: rgba(var(--normal-rgb), 0.3);
+}
+
+.Feuer-transparent {
+    background-color: rgba(var(--fire-rgb), 0.3);
+}
+
+.Wasser-transparent {
+    background-color: rgba(var(--water-rgb), 0.3);
+}
+
+.Elektro-transparent {
+    background-color: rgba(var(--electric-rgb), 0.3);
+}
+
+.Pflanze-transparent {
+    background-color: rgba(var(--grass-rgb), 0.3);
+}
+
+.Eis-transparent {
+    background-color: rgba(var(--ice-rgb), 0.3);
+}
+
+.Kampf-transparent {
+    background-color: rgba(var(--fighting-rgb), 0.3);
+}
+
+.Gift-transparent {
+    background-color: rgba(var(--poison-rgb), 0.3);
+}
+
+.Boden-transparent {
+    background-color: rgba(var(--ground-rgb), 0.3);
+}
+
+.Flug-transparent {
+    background-color: rgba(var(--flying-rgb), 0.3);
+}
+
+.Psycho-transparent {
+    background-color: rgba(var(--psychic-rgb), 0.3);
+}
+
+.Käfer-transparent {
+    background-color: rgba(var(--bug-rgb), 0.3);
+}
+
+.Gestein-transparent {
+    background-color: rgba(var(--rock-rgb), 0.3);
+}
+
+.Geist-transparent {
+    background-color: rgba(var(--ghost-rgb), 0.3);
+}
+
+.Drache-transparent {
+    background-color: rgba(var(--dragon-rgb), 0.3);
+}
+
+.Unlicht-transparent {
+    background-color: rgba(var(--dark-rgb), 0.3);
+}
+
+.Stahl-transparent {
+    background-color: rgba(var(--steel-rgb), 0.3);
+}
+
+.Fee-transparent {
+    background-color: rgba(var(--fairy-rgb), 0.3);
+}

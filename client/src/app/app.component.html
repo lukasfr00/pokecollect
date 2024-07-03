@@ -1,0 +1,13 @@
+@if(isAuthenticated()){ @if(showHeaderAndBackground) {
+<app-header></app-header>
+<div class="site-content">
+  <router-outlet></router-outlet>
+</div>
+<img class="background-image" src="assets/general-icons/pokeball.png" />
+} @else {
+<router-outlet></router-outlet>
+} } @else {
+<div class="site-content">
+  <router-outlet></router-outlet>
+</div>
+}

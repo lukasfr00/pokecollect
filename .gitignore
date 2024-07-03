@@ -8,8 +8,17 @@
 
 # Node
 /node_modules
+/client/node_modules
+/server/node_modules
 npm-debug.log
 yarn-error.log
+pnpm-debug.log
+lerna-debug.log
+
+# Logs
+logs
+*.log
+logs/*
 
 # IDEs and editors
 .idea/
@@ -19,8 +28,6 @@ yarn-error.log
 *.launch
 .settings/
 *.sublime-workspace
-
-# Visual Studio Code
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
@@ -30,12 +37,16 @@ yarn-error.log
 
 # Miscellaneous
 /.angular/cache
+/.angular/ls
 .sass-cache/
 /connect.lock
 /coverage
 /libpeerconnection.log
 testem.log
 /typings
+.npm
+.eslintcache
+/.eslintcache
 
 # System files
 .DS_Store

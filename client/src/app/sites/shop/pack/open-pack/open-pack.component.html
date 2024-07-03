@@ -1,0 +1,4 @@
+@for (pokemon of pack.content; track $index) {
+<app-pokemon-item [pokemon]="pokemon"></app-pokemon-item>
+}
+<button (click)="closePack()">Alle speichern</button>

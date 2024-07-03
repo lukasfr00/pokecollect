@@ -1,0 +1,27 @@
+<div class="close" (click)="close()"></div>
+<div class="navigation-container">
+  <div class="first-row">
+    <div class="left-column">
+      <button class="navigation-button home-button" (click)="navigateTo('/')">
+        <h3>Start</h3>
+        <img class="background-image" src="assets/general-icons/pokeball.png" />
+      </button>
+    </div>
+    <div class="right-column">
+      <button
+        class="navigation-button shop-button"
+        (click)="navigateTo('/shop')"
+      >
+        <h3>Shop</h3>
+        <img class="background-image" src="assets/general-icons/pokeball.png" />
+      </button>
+      <button
+        class="navigation-button collection-button"
+        (click)="navigateTo('/collection')"
+      >
+        <h3>Sammlung</h3>
+        <img class="background-image" src="assets/general-icons/pokeball.png" />
+      </button>
+    </div>
+  </div>
+</div>

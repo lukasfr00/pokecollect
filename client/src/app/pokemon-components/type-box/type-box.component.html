@@ -1,0 +1,8 @@
+@if (type) {
+<div class="type-box" [class.border]="border" [class]="type.name">
+  <img [src]="getDecodedImage(type.icon)" />
+  <p>{{ type.name }}</p>
+</div>
+} @else {
+<div class="type-box"></div>
+}

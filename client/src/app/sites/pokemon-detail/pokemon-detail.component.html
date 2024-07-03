@@ -1,0 +1,33 @@
+@if(pokemon){
+<div class="content">
+  <div class="header">
+    <button (click)="goBack()">
+      <img src="assets/general-icons/linker-pfeil.svg" />
+    </button>
+    <div class="header-information">
+      <h2>{{ pokemon.name }}</h2>
+      <div class="type-box-container">
+        <app-type-box
+          [border]="true"
+          [type]="pokemon.primaryType"
+        ></app-type-box>
+        <app-type-box
+          [border]="true"
+          [type]="pokemon.secondaryType"
+        ></app-type-box>
+      </div>
+      <p>#{{ pokemon.pokedex }}</p>
+    </div>
+    <div class="pokemon-image">
+      <img class="pokemon-sprite" [src]="pokemon.sprite" />
+      <div class="pokemon-shadow"></div>
+    </div>
+  </div>
+
+  <div class="information-container"></div>
+</div>
+
+<div class="header-background" [class]="pokemon.primaryType.name">
+  <img class="type-icon" [src]="getDecodedImage(pokemon.primaryType.icon)" />
+</div>
+}

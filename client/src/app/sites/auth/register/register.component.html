@@ -1,0 +1,36 @@
+<div class="information">
+  <h2>Registrieren</h2>
+  <p>
+    Willkommen bei der Pokemon-Sammelapp (ja, das ist ein Arbeitstitel). Hier
+    kannst du dich registrieren, um direkt mit dem Sammeln all deiner
+    Lieblingspokemon loszulegen. Solltest du bereits einen Account haben, kannst
+    du dich einloggen.
+  </p>
+</div>
+<form (ngSubmit)="register()">
+  <div class="input-container">
+    <label for="username">Benutzername:</label>
+    <input type="text" [(ngModel)]="username" name="username" required />
+  </div>
+  <div class="input-container">
+    <label for="email">Email:</label>
+    <input type="email" [(ngModel)]="email" name="email" required />
+  </div>
+  <div class="input-container">
+    <label for="firstname">Vorname:</label>
+    <input type="text" [(ngModel)]="firstname" name="firstname" required />
+  </div>
+  <div class="input-container">
+    <label for="lastname">Nachname:</label>
+    <input type="text" [(ngModel)]="lastname" name="lastname" required />
+  </div>
+  <div class="input-container">
+    <label for="password">Passwort:</label>
+    <input type="password" [(ngModel)]="password" name="password" required />
+  </div>
+
+  <button type="submit">Registrieren</button>
+</form>
+<button class="switchPage" (click)="login()">
+  Du hast bereits einen Account?
+</button>
